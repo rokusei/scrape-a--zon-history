@@ -90,7 +90,7 @@ const scrape = async () => {
                     // use for loops for async operations
                     // https://thedavidbarton.github.io/blog/iterating-puppeteer-async-methods/
                     for (var j = 0; j < shipments.length; j++) {
-                        // amazon.co.jp has two separate ways of displaying results
+                        // a--zon.co.jp has two separate ways of displaying results
                         // a shipment or a delivery, not sure why, but handle both.
                         if (tag === '.shipment') {
                             items = await shipments[j].$$('.a-fixed-left-grid')
