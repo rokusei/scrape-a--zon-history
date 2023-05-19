@@ -10,7 +10,7 @@ Scrapes every purchase you have made at A--zon.co.jp for the last 5 years using 
 Install dependencies.
 
 ```
-node i puppeteer
+npm i puppeteer
 ```
 
 ### Environmental Variables
